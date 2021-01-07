@@ -9,7 +9,11 @@
 #quiz-page-body {
   width: 60%;
   margin: 128px 20%;
-  background-color: gray;
+}
+
+#highscores-page-body {
+  width: 60%;
+  margin: 128px 20%;
 }
 
 #quiz-page-body-countdown {
@@ -20,13 +24,26 @@
   display: none;
 }
 
+#score-enter-initials {
+  display: none;
+}
+
 #answer-feedback {
   visibility: hidden;
+}
+
+#initials-input {
+  width: 48px;
 }
 
 @media only screen and (max-width: 600px) {
 
   #quiz-page-body {
+    width: 100%;
+    margin: 128px 0;
+  }
+
+  #highscores-page-body {
     width: 100%;
     margin: 128px 0;
   }

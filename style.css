@@ -6,6 +6,10 @@
     display: none;
 }
 
+#time-left-text {
+  padding: 0.5rem 0.5rem;
+}
+
 #quiz-page-body {
   width: 60%;
   margin: 128px 20%;
@@ -24,7 +28,7 @@
 
   #quiz-page-body {
     width: 100%;
-    margin: 96px 0;
+    margin: 128px 0;
   }
 
 }

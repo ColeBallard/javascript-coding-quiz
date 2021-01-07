@@ -1,7 +1,3 @@
-#quiz-page {
-  
-}
-
 #highscores-page {
     display: none;
 }
@@ -22,6 +18,10 @@
 
 #quiz-page-body-quiz {
   display: none;
+}
+
+#answer-feedback {
+  visibility: hidden;
 }
 
 @media only screen and (max-width: 600px) {

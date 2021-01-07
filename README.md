@@ -1,8 +1,8 @@
-# Code Quiz
+# Javascript Coding Quiz
 
 ## **Link**
 
-https://coleballard.github.io/code-quiz
+https://coleballard.github.io/javascript-coding-quiz/
 
 ## **Description**
 

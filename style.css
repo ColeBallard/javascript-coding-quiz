@@ -5,3 +5,26 @@
 #highscores-page {
     display: none;
 }
+
+#quiz-page-body {
+  width: 60%;
+  margin: 128px 20%;
+  background-color: gray;
+}
+
+#quiz-page-body-countdown {
+  display: none;
+}
+
+#quiz-page-body-quiz {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+  #quiz-page-body {
+    width: 100%;
+    margin: 96px 0;
+  }
+
+}

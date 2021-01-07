@@ -27,12 +27,44 @@
         </div>
       </header>
 
+      <div id="quiz-page-body">
+
+        <div class="card text-center" >
+
+          <div class="card-body" id="quiz-page-body-start">
+            <h5 class="card-title">Javascript Coding Quiz</h5>
+            <p class="card-text">You have 3 minutes to answer 20 questions. Each wrong answer will subtract 15 seconds from your time.</p>
+            <button class="btn btn-primary">Start Quiz</button>
+          </div>
+
+          <div class="card-body" id="quiz-page-body-countdown">
+            <h5 class="card-title" id="quiz-countdown"></h5>
+          </div>
+          
+          <div class="card-body" id="quiz-page-body-quiz">
+            <h6 class="card-title" id="quiz-question"></h6>
+            <div class="card-text">
+              <div class="btn-group-vertical" role="group">
+                <button type="button" class="btn btn-outline-primary"></button>
+                <button type="button" class="btn btn-outline-primary"></button>
+                <button type="button" class="btn btn-outline-primary"></button>
+                <button type="button" class="btn btn-outline-primary"></button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
     </div>
 
     <div class="container-fluid" id="highscores-page">
+
       <header class="position-absolute top-0 end-0">
         <button type="button" class="btn btn-primary">Take Quiz</button>
       </header>
+
     </div>
     
     <!-- jQuery script -->

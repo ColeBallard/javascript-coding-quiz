@@ -13,8 +13,6 @@ function addScore() {
     localStorage.setItem('scores', JSON.stringify(scores));
   }
 
-  $('#score-enter-initials').css('display', 'none');
-  $('#quiz-page-body-start').css('display', 'block');
   $('#quiz-page').css('display', 'none');
 
   $('#highscores-page').css('display', 'block');
@@ -30,7 +28,11 @@ function renderHighscores() {
 
   var i = 0;
   $('#highscore-list li').each(function() {
-    $(this).text(arr[i]['key'] + " " + arr[i++]['value']);
+    $(this).css('display', 'block');
+    if (i <= (arr.length - 1))
+      $(this).text(arr[i]['key'] + " - " + arr[i++]['value']);
+    else
+      $(this).css('display', 'none');
   });  
 }
 

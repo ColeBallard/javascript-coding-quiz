@@ -1,4 +1,4 @@
-const TOTAL_SECONDS = 5, TIME_PENALTY = 15;
+const TOTAL_SECONDS = 180, TIME_PENALTY = 15;
 var secondsElapsed, interval, countdown, countdownInterval;
 var questions = [];
 
@@ -120,17 +120,20 @@ function shuffleArray(array) {
 $('#quiz-page header .btn').click(function() {
   $('#quiz-page').css('display', 'none');
   $('#highscores-page').css('display', 'block');
-  if (interval) {
-    console.log('test');
-    var modal = new bootstrap.Modal(document.querySelector("#quiz-modal"), { keyboard: true });
-        modal.show();
-    //clearInterval();
-  }
-  //renderHighscores();
+  renderHighscores();
 });
 
 $('#highscores-page header .btn').click(function() {
+  clearInterval(interval);
+  clearInterval(countdownInterval);
+
   $('#highscores-page').css('display', 'none');
+
+  $('#quiz-page-body-countdown').css('display', 'none');
+  $('#quiz-page-body-quiz').css('display', 'none');
+  $('#score-enter-initials').css('display', 'none');
+
+  $('#quiz-page-body-start').css('display', 'block');
   $('#quiz-page').css('display', 'block');
   resetTimer();
 });

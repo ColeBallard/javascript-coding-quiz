@@ -20,9 +20,14 @@ function addScore() {
 }
  
 function renderHighscores() {
-  if (localStorage.getItem('scores'))
+  if (localStorage.getItem('scores')) {
+    $('#highscore-list').css('display', 'block');
     var scores = JSON.parse(localStorage.getItem('scores'));
-  else return;
+  }
+  else {
+    $('#highscore-list').css('display', 'none');
+    return;
+  }
 
   var arr = sortObject(scores);
 

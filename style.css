@@ -54,3 +54,16 @@
   }
 
 }
+
+@media only screen and (max-width: 300px) {
+
+  #time-remaining-card {
+    width: 100%;
+    top: 40px !important;
+  }
+
+  #quiz-page-body {
+    margin: 144px 0;
+  }
+
+}

@@ -2,7 +2,7 @@
 
 ## **Link**
 
-https://coleballard.github.io/javascript-coding-quiz/
+https://coleballard.github.io/javascript-coding-quiz
 
 ## **Description**
 
@@ -10,4 +10,4 @@ Simple Javascript coding quiz that keeps score based off how fast you can finish
 
 ## **Screenshot**
 
-![screenshot of webpage](Assets/appscrnsht.png)
+![screenshot of webpage](Assets/appscrnshot.png)

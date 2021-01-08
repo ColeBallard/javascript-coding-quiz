@@ -36,6 +36,11 @@
   width: 48px;
 }
 
+#initials-warning {
+  display: none;
+  color: red;
+}
+
 @media only screen and (max-width: 600px) {
 
   #quiz-page-body {

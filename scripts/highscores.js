@@ -1,7 +1,14 @@
 function addScore() {
   var userScore = TOTAL_SECONDS - secondsElapsed;
-  var initials = $('#initials-input').val();
+  var initials = $('#initials-input').val().toUpperCase();
   var scores;
+
+  // Check if initials is empty
+  if (!initials) {
+    $('#initials-warning').css('display', 'block');
+    return;
+  }
+  else $('#initials-warning').css('display', 'none');
 
   if (!localStorage.getItem('scores')) {
     scores = {[initials] : userScore};

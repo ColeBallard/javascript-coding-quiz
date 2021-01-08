@@ -1,4 +1,4 @@
-const TOTAL_SECONDS = 180, TIME_PENALTY = 15;
+const TOTAL_SECONDS = 3, TIME_PENALTY = 15;
 var secondsElapsed, interval, countdown, countdownInterval;
 var questions = [];
 

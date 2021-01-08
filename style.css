@@ -13,7 +13,7 @@
 
 #highscores-page-body {
   width: 60%;
-  margin: 128px 20%;
+  margin: 64px 20%;
 }
 
 #quiz-page-body-countdown {
@@ -45,7 +45,7 @@
 
   #highscores-page-body {
     width: 100%;
-    margin: 128px 0;
+    margin: 64px 0;
   }
 
 }

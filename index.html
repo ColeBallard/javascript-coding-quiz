@@ -64,6 +64,24 @@
 
       </div>
 
+      <div class="modal" tabindex="-1" id="quiz-modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
 
     <div class="container-fluid" id="highscores-page">
@@ -75,6 +93,17 @@
       <div id="highscores-page-body">
 
         <div class="card text-center">
+
+          <div class="card-body" id="quiz-page-body-start">
+            <h5 class="card-title">High Scores</h5>
+            <ul class="list-group my-3" id="highscore-list">
+              <li class="list-group-item list-group-item-primary"></li>
+              <li class="list-group-item"></li>
+              <li class="list-group-item"></li>
+              <li class="list-group-item"></li>
+              <li class="list-group-item"></li>
+            </ul>
+          </div>
 
         </div>
 
@@ -89,7 +118,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
     <!-- Custom script -->
-    <script src="script.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/questions.js"></script>
+    <script src="scripts/countdown.js"></script>
+    <script src="scripts/timer.js"></script>
+    <script src="scripts/highscores.js"></script>
     
   </body>
 </html>

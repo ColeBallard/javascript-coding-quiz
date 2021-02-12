@@ -8,6 +8,4 @@ https://coleballard.github.io/javascript-coding-quiz
 
 Simple Javascript coding quiz that keeps score based off how fast you can finish the quiz, wrong answers subtract time and high scores are stored locally.
 
-## **Screenshot**
-
 ![screenshot of webpage](Assets/appscrnshot.png)
